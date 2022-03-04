@@ -6,6 +6,8 @@ import { BrowserRouter as Router,Route, Routes} from 'react-router-dom';
 import App from './components/App';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+import Stocks from "./components/Stocks";
+import Users from "./components/Users";
 
 import {firebaseApp, auth} from './firebase';
 
@@ -25,6 +27,8 @@ ReactDOM.render(
       <Route exact path='/' element={<App/>}/>
       <Route path='/signin' element={<SignIn/>}/>
       <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/stocks' element={<Stocks/>}/>
+      <Route path='/users' element={<Users/>}/>
     </Routes>
   </Router>
   ,document.getElementById('root')
