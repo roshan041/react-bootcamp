@@ -1,0 +1,35 @@
+body {
+    background-color:rgb(137, 155, 235);
+    color: white;
+    padding: 10% 30% ;
+    font-family: Arial;
+    text-align: center;
+  }
+.form{
+    color: "red"; 
+    background-color: "white"; 
+  }
+
+h1,h2,h3{
+  color: "white";
+  background-color: "DodgerBlue";
+  padding: "10px";
+  font-Family: "Arial";
+  font-size: larger;
+}
+table {
+    width: auto;
+    height: auto;
+    inset-block: center;
+  }
+    
+  th {
+    text-align: center;
+    padding: 30 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+  td {
+    text-align: center;
+    padding: 30 10;
+  }
